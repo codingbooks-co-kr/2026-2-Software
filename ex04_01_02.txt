@@ -3,7 +3,7 @@
 let x = 0, velocity = 1;
 
 function setup() {
-  createCanvas(300, 300);
+  createCanvas(500, 500);
 }
 
 function draw() {
