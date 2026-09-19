@@ -3,7 +3,7 @@
 let interval = 0, current_time = 0, previous_time = 0;
 
 function setup() {
-  createCanvas(300, 300);
+  createCanvas(600, 600);
 }
 
 function draw() {
