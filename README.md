@@ -1,4 +1,4 @@
-## **오픈소스소프트웨어 GitHub 활동 증빙 방법**
+## **오픈소스소프트웨어 GitHub 활동 증빙**
 (1) 자신의 Private Repository에 해당 주차의 과제를 완성합니다.  
 (2) 과제를 Commit하고 Push합니다.  
 (3) GitHub에서 소스코드의 Commit History를 복사합니다.  
