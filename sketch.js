@@ -1,8 +1,21 @@
+// 마우스의 좌우 버튼을 누르거나 떼면 원의 색상 변경 (color() 함수 사용)
+
+let c;					// ❶ 변수 선언
+
 function setup() {
   createCanvas(300, 300);
+  console.log(p5.prototype.VERSION);
 }
 
 function draw() {
-  background(220);
-  circle(mouseX, mouseY, 50);
+  background(0);
+  if (mouseIsPressed && (mouseButton.left)) {	    // 마우스 왼쪽버튼 누름
+    c = color(255, 0, 0);		// ❷ c는 Red 컬러값을 저장
+  } else if (mouseIsPressed && (mouseButton.right)) {  // 마우스 오른쪽버튼 누름
+    c = color(0, 255, 0);		// ❷ c는 Green 컬러값을 저장
+  } else {							    // 그 외의 경우
+    c = color(0, 0, 255);		// ❷ c는 Blue 컬러값을 저장
+  }
+  fill(c);				// ❸ 컬러값 적용
+  ellipse(width/2, height/2, 200, 200);
 }
