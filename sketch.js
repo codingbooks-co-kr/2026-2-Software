@@ -3,7 +3,7 @@
 let c;					// ❶ 변수 선언
 
 function setup() {
-  createCanvas(300, 300);
+  createCanvas(600, 600);
   console.log(p5.prototype.VERSION);
 }
 
